@@ -5,6 +5,11 @@
  */
 package hausuebung4;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
 /**
  *
  * @author Georg Mairhuber
@@ -14,8 +19,11 @@ public class Hausuebung4 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws FileNotFoundException {
+        readFile reader = new readFile();
+        reader.readFile();
     }
+
     
+
 }
